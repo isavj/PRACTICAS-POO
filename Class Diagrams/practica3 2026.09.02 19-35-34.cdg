@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="practica3">
+  <ClassDiagramComponents>
+    <Class name="Main3" package="practica3" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Practica3" package="practica3" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="lblNombre" type="JLabel" visibility="package"/>
+        <Field name="txtNombre" type="JTextField" visibility="package"/>
+        <Field name="pwdContrasenia" type="JPasswordField" visibility="package"/>
+        <Field name="lblInformacion" type="JLabel" visibility="package"/>
+        <Field name="txtArea" type="JTextArea" visibility="package"/>
+        <Field name="scrollArea" type="JScrollPane" visibility="package"/>
+        <Field name="btnNuevo" type="JButton" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="componentes" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
