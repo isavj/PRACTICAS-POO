@@ -14,17 +14,17 @@ import java.awt.*;
  */
 public class Practica3 extends JFrame
 {
-  // Izquierda
+  // IZQUIERDA
     JLabel lblNombre, lblEdad, lblCorreo, lblUsuario, lblContrasenia;
     JTextField txtNombre, txtEdad, txtCorreo, txtUsuario;
     JPasswordField pwdContrasenia;
  
-    // Lado derecho
+    // LADO DERECHO 
     JLabel lblInformacion;
     JTextArea txtArea;
     JScrollPane scrollArea;
  
-    // Botones
+    // BOTONES
     JButton btnNuevo, btnAgregar;
  
     public Practica3(){
