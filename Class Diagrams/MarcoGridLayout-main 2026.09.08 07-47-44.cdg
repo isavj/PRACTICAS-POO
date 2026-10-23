@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="MarcoGridLayout-main">
+  <ClassDiagramComponents>
+    <Class name="DemoGridLayout" package="marcogridlayout" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MarcoGridLayout" package="marcogridlayout" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="botones" type="JButton" visibility="private"/>
+        <Field name="nombres" type="String" visibility="private" isFinal="true"/>
+        <Field name="alternar" type="boolean" visibility="private"/>
+        <Field name="contenedor" type="Container" visibility="private"/>
+        <Field name="cuadricula1" type="GridLayout" visibility="private"/>
+        <Field name="cuadricula2" type="GridLayout" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="evento"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

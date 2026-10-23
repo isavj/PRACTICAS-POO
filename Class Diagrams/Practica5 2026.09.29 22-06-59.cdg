@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Practica5">
+  <ClassDiagramComponents>
+    <Class name="Practica5" package="practica5" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="lblMatricula" type="JLabel" visibility="private"/>
+        <Field name="txtMatricula" type="JTextField" visibility="private"/>
+        <Field name="btnBuscar" type="JButton" visibility="private"/>
+        <Field name="tabla" type="JTable" visibility="private"/>
+        <Field name="modelo" type="DefaultTableModel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="elementos" returnType="void" visibility="public"/>
+        <Method name="buscar" returnType="void" visibility="private"/>
+        <Method name="nuevo" returnType="void" visibility="private"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

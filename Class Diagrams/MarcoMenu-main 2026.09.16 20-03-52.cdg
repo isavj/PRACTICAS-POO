@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="MarcoMenu-main">
+  <ClassDiagramComponents>
+    <Class name="MarcoMenu" package="marcomenu" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="valoresColores" type="Color" visibility="private" isFinal="true"/>
+        <Field name="elementosColores" type="JRadioButtonMenuItem" visibility="private"/>
+        <Field name="fuentes" type="JRadioButtonMenuItem" visibility="private"/>
+        <Field name="elementosEstilos" type="JCheckBoxMenuItem" visibility="private"/>
+        <Field name="mostrarJLabel" type="JLabel" visibility="private"/>
+        <Field name="fuentesButtonGroup" type="ButtonGroup" visibility="private"/>
+        <Field name="coloresButtonGroup" type="ButtonGroup" visibility="private"/>
+        <Field name="estilo" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="PruebaMenu" package="marcomenu" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

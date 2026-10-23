@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Practica4">
+  <ClassDiagramComponents>
+    <Class name="Main4" package="practica4" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="practica4" package="practica4" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="lblNombre" type="JLabel" visibility="package"/>
+        <Field name="txtNombre" type="JTextField" visibility="package"/>
+        <Field name="cmbSexo" type="JComboBox&lt;String&gt;" visibility="package"/>
+        <Field name="chkMovil" type="JCheckBox" visibility="package"/>
+        <Field name="lblFoto" type="JLabel" visibility="package"/>
+        <Field name="fileChooser" type="JFileChooser" visibility="package"/>
+        <Field name="btnNuevo" type="JButton" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="componentes" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
